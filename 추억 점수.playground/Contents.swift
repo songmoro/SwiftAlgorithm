@@ -29,6 +29,30 @@ import Foundation
 //    입출력 예 #3
 //    설명 생략
 
+let name = ["may", "kein", "kain", "radi"]
+let yearning = [5, 10, 1, 3]
+let photo = [["may"],["kein", "deny", "may"], ["kon", "coni"]]
+
 func solution(_ name:[String], _ yearning:[Int], _ photo:[[String]]) -> [Int] {
-    return []
+    var answer: [Int] = []
+    var nameDict: [String: Int] = [:]
+    
+    name.enumerated().map {
+        nameDict.updateValue(yearning[$0], forKey: $1)
+    }
+    
+    for photoArray in photo {
+        var score = 0
+        
+        photoArray.map {
+            if let value = nameDict[$0] {
+                score += value
+            }
+        }
+        
+        answer.append(score)
+    }
+    
+    return answer
 }
+print(solution(name, yearning, photo))
