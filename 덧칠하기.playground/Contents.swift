@@ -38,6 +38,24 @@ import Foundation
 //    ※ 공지 - 2023년 3월 20일 문제 난이도가 Lv. 2 → Lv. 1로 변경되었습니다.
 //    ※ 공지 - 2023년 8월 17일 문제 지문의 오탈자를 수정했습니다.
 
+let n = 8
+let m = 4
+let section = [2, 3, 6]
+
 func solution(_ n:Int, _ m:Int, _ section:[Int]) -> Int {
-    return 0
+    if m == 1 { return section.count }
+    
+    var answer = 1
+    var last = section.first! + m - 1
+    
+    section.forEach { i in
+        if i > last {
+            last = i + m - 1
+            answer += 1
+        }
+    }
+    
+    return answer
 }
+
+print(solution(n, m, section))
