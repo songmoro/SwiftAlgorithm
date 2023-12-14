@@ -79,5 +79,25 @@ import Foundation
 //    7단계 변화 없습니다.
 
 func solution(_ new_id:String) -> String {
-    return ""
+    var new_id = new_id
+    
+    new_id = new_id.lowercased()
+    
+    new_id = new_id.replacingOccurrences(of: "[^a-z0-9-_.]", with: "", options: .regularExpression)
+    
+    new_id = new_id.replacingOccurrences(of: "(\\.)\\1+", with: ".", options: .regularExpression)
+    
+    new_id = new_id.replacingOccurrences(of: "^\\.", with: "", options: .regularExpression).replacingOccurrences(of: "\\.$", with: "", options: .regularExpression)
+    
+    new_id = new_id.isEmpty ? "a" : new_id
+    
+    new_id = String(new_id.prefix(15)).replacingOccurrences(of: "\\.$", with: "", options: .regularExpression)
+    
+    while(new_id.count <= 2) {
+        new_id.append(new_id.last!)
+    }
+    
+    return new_id
 }
+
+print(solution("...!@BaT#*..y.abcdefghijklm."))
