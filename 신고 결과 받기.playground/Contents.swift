@@ -57,8 +57,6 @@ import Foundation
 //    정확성 테스트 : 10초
 
 func solution(_ id_list:[String], _ report:[String], _ k:Int) -> [Int] {
-    var result: [Int] = []
-    
     var user: [String: [String]] = Dictionary(uniqueKeysWithValues: zip(id_list, Array(repeating: [], count: id_list.count)))
     var reported: [String: Int] = Dictionary(uniqueKeysWithValues: zip(id_list, Array(repeating: 0, count: id_list.count)))
     
@@ -70,14 +68,12 @@ func solution(_ id_list:[String], _ report:[String], _ k:Int) -> [Int] {
         reported[last]! += 1
         user[first]!.append(last)
     }
-    
-    id_list.forEach {
-        result.append(user[$0]!.reduce(0) { partialResult, reportedUser in
+
+    return id_list.map {
+        user[$0]!.reduce(0) { partialResult, reportedUser in
             partialResult + (reported[reportedUser]! >= k ? 1 : 0)
-        })
+        }
     }
-    
-    return result
 }
 
 print(solution(["muzi", "frodo", "apeach", "neo"], ["muzi frodo","apeach frodo","frodo neo","muzi neo","apeach muzi"], 2))
