@@ -1,9 +1,8 @@
 import Foundation
 
 func solution(_ board:[[Int]], _ moves:[Int]) -> Int {
-    var boardCount = board.count
     var stack: [Int] = []
-    var top: [Int] = Array(repeating: boardCount - 1, count: boardCount)
+    var top: [Int] = Array(repeating: board.count - 1, count: board.count)
     
     for (i, arr) in board.enumerated() {
         for (j, ele) in arr.enumerated() {
@@ -14,18 +13,16 @@ func solution(_ board:[[Int]], _ moves:[Int]) -> Int {
     }
     
     return moves.reduce(0) {
-        let i = top[$1 - 1]
-        
-        if i <= boardCount - 1 {
-            let j = $1 - 1
-            let last = board[i][j]
-            
-            stack.append(last)
+        if top[$1 - 1] <= board.count - 1 {
+            let i = top[$1 - 1], j = $1 - 1
             top[$1 - 1] += 1
             
-            if stack.suffix(2).map({ String($0) }).joined() == "\(last)\(last)" {
-                stack.removeLast(2)
+            if stack.suffix(1).contains(board[i][j]) {
+                stack.removeLast()
                 return $0 + 2
+            }
+            else {
+                stack.append(board[i][j])
             }
         }
         return $0
