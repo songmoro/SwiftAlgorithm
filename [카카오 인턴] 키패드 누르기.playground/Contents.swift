@@ -10,7 +10,6 @@ func solution(_ numbers:[Int], _ hand:String) -> String {
                 0: [1: 4, 4: 3, 7: 2, 3: 4, 6: 3, 9: 2, 2: 3, 5: 2, 8: 1, 0: 0, 10: 1, 12: 1]]
     
     return numbers.reduce("") {
-        print(left, right, $1)
         if [1, 4, 7].contains($1) {
             left = $1
             return $0 + "L"
