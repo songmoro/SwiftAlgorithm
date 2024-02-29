@@ -26,7 +26,10 @@
 		F88D22FB2B8F7D940056ACB8 /* 피보나치 수.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "피보나치 수.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F88D22FC2B8F9A550056ACB8 /* 짝지어 제거하기.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "짝지어 제거하기.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F88D22FD2B8FA2470056ACB8 /* 카펫.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "카펫.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+<<<<<<< HEAD
 		F8D9A99A2B9071DE0075C445 /* 영어 끝말잇기.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "영어 끝말잇기.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+=======
+>>>>>>> 52e13e4462a8fc8c77f63c90f470d375d3dd02df
 		F8F0F9732B70033B00FEABDA /* 가장 많이 받은 선물.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "가장 많이 받은 선물.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F8F0F9742B7026B700FEABDA /* 체육복.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "체육복.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F8F21D042B297D7E00B1EDD9 /* 덧칠하기.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "덧칠하기.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -40,7 +43,10 @@
 		F83D0C4C2B0BC746004723C2 = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				F8D9A99A2B9071DE0075C445 /* 영어 끝말잇기.playground */,
+=======
+>>>>>>> 52e13e4462a8fc8c77f63c90f470d375d3dd02df
 				F88D22FD2B8FA2470056ACB8 /* 카펫.playground */,
 				F88D22FC2B8F9A550056ACB8 /* 짝지어 제거하기.playground */,
 				F88D22FB2B8F7D940056ACB8 /* 피보나치 수.playground */,

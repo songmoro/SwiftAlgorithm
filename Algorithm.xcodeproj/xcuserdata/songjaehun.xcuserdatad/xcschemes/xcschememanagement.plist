@@ -550,6 +550,27 @@
 			<key>orderHint</key>
 			<integer>16</integer>
 		</dict>
+		<key>카펫 (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>51</integer>
+		</dict>
+		<key>카펫 (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>52</integer>
+		</dict>
+		<key>카펫 (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>50</integer>
+		</dict>
 		<key>크레인 인형뽑기 게임 (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
