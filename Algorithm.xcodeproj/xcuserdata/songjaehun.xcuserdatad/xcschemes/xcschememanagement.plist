@@ -382,6 +382,27 @@
 			<key>orderHint</key>
 			<integer>21</integer>
 		</dict>
+		<key>예상 대진표 (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>34</integer>
+		</dict>
+		<key>예상 대진표 (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>35</integer>
+		</dict>
+		<key>예상 대진표 (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>33</integer>
+		</dict>
 		<key>올바른 괄호 (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
