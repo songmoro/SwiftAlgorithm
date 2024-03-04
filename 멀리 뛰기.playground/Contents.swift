@@ -2,7 +2,7 @@ func solution(_ n:Int) -> Int {
     var F = [0, 1, 2]
     
     while F.count <= n {
-        F.append((F[F.endIndex - 2] + F[F.endIndex - 1]).quotientAndRemainder(dividingBy: 1234567).remainder)
+        F.append((F[F.endIndex - 2] + F.last!).quotientAndRemainder(dividingBy: 1234567).remainder)
     }
     
     return F[n]
