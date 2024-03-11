@@ -928,6 +928,27 @@
 			<key>orderHint</key>
 			<integer>43</integer>
 		</dict>
+		<key>피로도 (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>53</integer>
+		</dict>
+		<key>피로도 (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>54</integer>
+		</dict>
+		<key>피로도 (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>52</integer>
+		</dict>
 		<key>피보나치 수 (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
