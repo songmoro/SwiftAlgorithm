@@ -1,5 +1,16 @@
 import Foundation
 
+//    func solution(_ k: Int, _ dungeons: [[Int]]) -> Int {
+//        return explore(k, dungeons, 0)
+//    }
+//
+//    private func explore(_ k: Int, _ dungeons: [[Int]], _ depth: Int) -> Int {
+//        return dungeons.map { dungeon in
+//            k >= dungeon[0] ? explore(k - dungeon[1], dungeons.filter { elem in dungeon != elem }, depth + 1) : depth
+//        }.max() ?? depth
+//    }
+
+
 func solution(_ k:Int, _ dungeons:[[Int]]) -> Int {
     var result = 0
     var visited = [Bool](repeating: false, count: dungeons.count)
