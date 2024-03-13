@@ -256,6 +256,27 @@
 			<key>orderHint</key>
 			<integer>49</integer>
 		</dict>
+		<key>뉴스 클러스터링 (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>59</integer>
+		</dict>
+		<key>뉴스 클러스터링 (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>60</integer>
+		</dict>
+		<key>뉴스 클러스터링 (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>58</integer>
+		</dict>
 		<key>다음 큰 숫자 (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
