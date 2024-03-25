@@ -12,6 +12,7 @@
 		F804D5952B28396700CD2F47 /* 추억 점수.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "추억 점수.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F80A0BCD2B2C3C96002A1178 /* 신고 결과 받기.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "신고 결과 받기.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F80A0BCE2B2C4D07002A1178 /* 햄버거 만들기.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "햄버거 만들기.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F82662992BB0FB5600862713 /* 주차 요금 계산.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "주차 요금 계산.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F833C0F42B95DDB800A26310 /* 연속 부분 수열 합의 개수.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "연속 부분 수열 합의 개수.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F833C0F52B96A5D500A26310 /* 괄호 회전하기.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "괄호 회전하기.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F833C0F62B97188D00A26310 /* 할인 행사.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "할인 행사.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -61,6 +62,7 @@
 		F83D0C4C2B0BC746004723C2 = {
 			isa = PBXGroup;
 			children = (
+				F82662992BB0FB5600862713 /* 주차 요금 계산.playground */,
 				F8FF91642BAC3C93006315B7 /* N진수 게임.playground */,
 				F8FF91632BABCC85006315B7 /* [3차] 압축.playground */,
 				F8F536FB2BA84AF800D27EC7 /* k진수에서 소수 개수 구하기.playground */,
